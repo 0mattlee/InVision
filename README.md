@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/wbiVTb9.png" alt="InVision Logo" width="400"/>
+  <img src="https://i.imgur.com/y5hW5KP.png" alt="InVision Logo" width="400"/>
 </p>
 
 # InVision - Acessibilidade e Controle por Gestos Faciais
