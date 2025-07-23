@@ -8,7 +8,7 @@ SENSITIVITY = 2500  # Sensibilidade do movimento do rato
 DEAD_ZONE_THRESHOLD = 0.002  # Margem para ignorar micromovimentos relativos
 
 # -- Configurações de Ações Faciais --
-MOUTH_OPEN_THRESHOLD = 0.02  # Limiar para considerar a boca aberta
+MOUTH_OPEN_THRESHOLD = 0.009  # Limiar para considerar a boca aberta
 HEAD_TILT_THRESHOLD = 0.10  # Limiar para detetar inclinação da cabeça
 
 # -- Configurações de Scroll --
