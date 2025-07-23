@@ -1,14 +1,17 @@
-# InVision - Controle do Rato por Gestos Faciais
+# InVision - Acessibilidade e Controle por Gestos Faciais
 
-O InVision é uma aplicação de acessibilidade que permite controlar o cursor do rato e simular cliques usando movimentos faciais, com o objetivo de auxiliar pessoas com deficiência motora a interagir com o computador.
+O InVision é uma solução de tecnologia assistiva projetada para empoderar pessoas com deficiências motoras, oferecendo uma nova forma de interagir com o computador. Utilizando apenas uma webcam, o InVision traduz movimentos faciais em comandos de controle do mouse, quebrando barreiras e promovendo a inclusão digital.
+
+## Uma Ferramenta de Inclusão
+
+Acreditamos que a tecnologia deve ser uma ponte, não um obstáculo. O InVision foi criado com o propósito de garantir que todos possam navegar, trabalhar e se comunicar no ambiente digital com mais autonomia e liberdade.
 
 ## Funcionalidades
 
-- **Movimento do Cursor:** A posição do nariz controla o movimento do cursor do mouse na tela, usando um sistema de movimento relativo para maior estabilidade.
-- **Clique e Arraste:** Manter a boca aberta pressiona o botão do rato, e fechá-la solta-o, permitindo a funcionalidade de "arrastar e soltar".
-- **Scroll com a Cabeça:** Inclinar a cabeça para a direita ou para a esquerda faz o scroll da página para baixo ou para cima, respetivamente.
-- **Feedback Visual:** Exibe o vídeo da webcam com a malha facial (Face Mesh) desenhada sobre o rosto, mostrando os pontos que estão a ser rastreados.
-- **Controle de Cliques:** Inclui um sistema de cooldown para evitar cliques múltiplos e indesejados.
+- **Controle Preciso do Mouse:** A posição do nariz guia o cursor do mouse pela tela, com um sistema de movimento relativo que garante estabilidade e precisão.
+- **Clique e Arraste Intuitivos:** Manter a boca aberta pressiona o botão do mouse, e fechá-la o solta. Isso permite realizar cliques simples e operações complexas como "arrastar e soltar" de forma natural.
+- **Navegação por Scroll:** Incline a cabeça para a direita ou para a esquerda para rolar (scroll) páginas para baixo ou para cima, facilitando a leitura de documentos e a navegação em websites.
+- **Feedback Visual em Tempo Real:** A aplicação exibe o vídeo da webcam com uma malha facial (Face Mesh) sobre o rosto, fornecendo um feedback claro dos pontos que estão sendo rastreados.
 
 ## Requisitos do Sistema
 
@@ -17,20 +20,22 @@ O InVision é uma aplicação de acessibilidade que permite controlar o cursor d
 
 ## Instalação
 
-1.  **Clone o repositório (ou baixe os arquivos):**
+1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/InVision.git
+    git clone https://github.com/0mattlee/InVision.git
     cd InVision
     ```
 
 2.  **Crie um ambiente virtual (recomendado):**
     ```bash
     python -m venv venv
-    source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
+    # No Windows
+    venv\Scripts\activate
+    # No macOS/Linux
+    source venv/bin/activate
     ```
 
 3.  **Instale as dependências:**
-    Todas as bibliotecas necessárias estão listadas no arquivo `requirements.txt`. Para instalá-las, execute o seguinte comando:
     ```bash
     pip install -r requirements.txt
     ```
@@ -38,10 +43,9 @@ O InVision é uma aplicação de acessibilidade que permite controlar o cursor d
 ## Como Rodar o Projeto
 
 1.  **Permissão de Acesso à Câmera:**
-    Ao executar o programa pela primeira vez, o seu sistema operativo pode solicitar permissão para que o script acesse a webcam. Certifique-se de conceder essa permissão.
+    Ao executar o programa pela primeira vez, seu sistema operacional pode solicitar permissão para que o script acesse a webcam. Certifique-se de conceder essa permissão.
 
 2.  **Execute o script principal:**
-    Com o ambiente virtual ativado e as dependências instaladas, execute o seguinte comando no terminal:
     ```bash
     python main.py
     ```
@@ -49,9 +53,9 @@ O InVision é uma aplicação de acessibilidade que permite controlar o cursor d
 3.  **Uso:**
     - Ao iniciar, o programa estará pronto para uso. Não é necessária calibração.
     - Mova a cabeça para controlar o cursor do mouse.
-    - Abra a boca para pressionar o botão do rato (e mantenha-a aberta para arrastar). Feche a boca para soltar.
-    - Incline a cabeça para a direita para fazer scroll para baixo.
-    - Incline a cabeça para a esquerda para fazer scroll para cima.
+    - Abra a boca para pressionar o botão do mouse (e mantenha-a aberta para arrastar). Feche a boca para soltar.
+    - Incline a cabeça para a direita para rolar a página para baixo.
+    - Incline a cabeça para a esquerda para rolar a página para cima.
     - Pressione a tecla **'q'** para fechar a janela e encerrar o programa.
 
 ## Estrutura do Projeto
@@ -65,5 +69,5 @@ InVision/
 ├── src/                  # Diretório com o código fonte
 │   ├── config.py         # Ficheiro de configurações e constantes
 │   ├── face_tracker.py   # Classe para deteção facial com MediaPipe
-│   └── mouse_controller.py # Classe para controlar as ações do rato
+│   └── mouse_controller.py # Classe para controlar as ações do mouse
 └── README.md             # Este arquivo

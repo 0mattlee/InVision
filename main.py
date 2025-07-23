@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Ponto de entrada principal para a aplicação de controlo do rato por gestos faciais.
+Ponto de entrada principal para a aplicação InVision.
 """
 import cv2
 import time
@@ -9,7 +9,7 @@ from src.mouse_controller import MouseController
 
 def main():
     """
-    Orquestra a aplicação: captura de vídeo, rastreamento facial e controlo do rato.
+    Orquestra a aplicação: captura de vídeo, rastreamento facial e controle do mouse.
     """
     # Inicializa os componentes principais
     cap = cv2.VideoCapture(0)
@@ -34,7 +34,7 @@ def main():
             # Processa o frame para encontrar landmarks e desenhar a malha
             landmarks, processed_frame = face_tracker.process_frame(frame)
 
-            # Se um rosto for detetado, atualiza o controlador do rato
+            # Se um rosto for detectado, atualiza o controlador do mouse
             if landmarks:
                 mouse_controller.update(landmarks)
 
