@@ -1,5 +1,9 @@
 # InVision - Acessibilidade e Controle por Gestos Faciais
 
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/github/license/0mattlee/InVision)
+
 O InVision é uma solução de tecnologia assistiva projetada para empoderar pessoas com deficiências motoras, oferecendo uma nova forma de interagir com o computador. Utilizando apenas uma webcam, o InVision traduz movimentos faciais em comandos de controle do mouse, quebrando barreiras e promovendo a inclusão digital.
 
 ## Uma Ferramenta de Inclusão
@@ -13,11 +17,23 @@ Acreditamos que a tecnologia deve ser uma ponte, não um obstáculo. O InVision 
 - **Navegação por Scroll:** Incline a cabeça para a direita ou para a esquerda para rolar (scroll) páginas para baixo ou para cima, facilitando a leitura de documentos e a navegação em websites.
 - **Feedback Visual em Tempo Real:** A aplicação exibe o vídeo da webcam com uma malha facial (Face Mesh) sobre o rosto, fornecendo um feedback claro dos pontos que estão sendo rastreados.
 
+## Segurança e Privacidade
+
+O InVision **não grava nem armazena** imagens ou vídeos capturados pela webcam. Todo o processamento é feito **localmente**, garantindo a privacidade do usuário.
+
 ## Status do Projeto
 
 :warning: **Em Desenvolvimento**
 
 O InVision é um projeto que está em desenvolvimento ativo por mim, Matheus. As funcionalidades atuais são estáveis, mas novas melhorias e recursos estão sendo planejados. Sinta-se à vontade para testar, mas tenha em mente que bugs podem ocorrer.
+
+## Planejamento Futuro (Roadmap)
+
+- [ ] Interface gráfica para configuração de sensibilidade e limiares.
+- [ ] Suporte a múltiplos gestos (ex: piscar de olhos para clique direito).
+- [ ] Perfis de configuração personalizáveis para diferentes usuários.
+- [ ] Suporte a múltiplos idiomas.
+- [ ] Instalador simplificado para Windows, macOS e Linux.
 
 ## Como Contribuir
 
