@@ -13,6 +13,21 @@ Acreditamos que a tecnologia deve ser uma ponte, não um obstáculo. O InVision 
 - **Navegação por Scroll:** Incline a cabeça para a direita ou para a esquerda para rolar (scroll) páginas para baixo ou para cima, facilitando a leitura de documentos e a navegação em websites.
 - **Feedback Visual em Tempo Real:** A aplicação exibe o vídeo da webcam com uma malha facial (Face Mesh) sobre o rosto, fornecendo um feedback claro dos pontos que estão sendo rastreados.
 
+## Status do Projeto
+
+:warning: **Em Desenvolvimento**
+
+O InVision é um projeto que está em desenvolvimento ativo por mim, Matheus. As funcionalidades atuais são estáveis, mas novas melhorias e recursos estão sendo planejados. Sinta-se à vontade para testar, mas tenha em mente que bugs podem ocorrer.
+
+## Como Contribuir
+
+Sua contribuição é muito bem-vinda! Se você tem ideias para novas funcionalidades, encontrou um bug ou quer melhorar o código, sinta-se à vontade para:
+
+1.  Abrir uma **Issue** para discutir a sua ideia ou reportar um problema.
+2.  Fazer um **Fork** do projeto, criar uma nova branch e enviar um **Pull Request** com as suas melhorias.
+
+Juntos, podemos tornar o InVision uma ferramenta ainda mais poderosa e acessível.
+
 ## Requisitos do Sistema
 
 - Python 3.8 ou superior.
